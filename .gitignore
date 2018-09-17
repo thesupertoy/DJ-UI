@@ -1,0 +1,38 @@
+##### CUSTOM #####
+/bin/
+
+##### FROM SPRING INIT: #####
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### visual studio code ###
+/.vscode/
+
+
+### Kube Secrets
+*secrets.yml*
+*secret.yml*
